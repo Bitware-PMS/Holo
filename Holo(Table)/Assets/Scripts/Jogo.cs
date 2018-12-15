@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jogo : MonoBehaviour {
+public class Jogo : MonoBehaviour
+{
 
     public GameObject tiro;
     public GameObject tiroSpawn;
@@ -10,17 +11,27 @@ public class Jogo : MonoBehaviour {
 
     public float aceleracao = 50f;
     public float virar = 60f;
-
     private Transform trans;
 
+    private float pontuacao;
+
+    private GameObject network;
+    
+    public void setNetwork(GameObject network)
+    {
+        this.network = network;
+    }
+
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         trans = transform;
+        pontuacao = Time.time;
     }
 
     // Update is called once per frame
-    void Update () {
-        virarNave();
+    void Update()
+    {
         acelarar();
         if (Input.GetKeyDown("space"))
             disparar();
@@ -40,14 +51,28 @@ public class Jogo : MonoBehaviour {
         trans.position += trans.forward * aceleracao * Time.deltaTime * 0.5f;
     }
 
-    private void virarNave()
+    //Set force from -1 -> 0 or 0 -> 1
+    public void virarNave(float force)
     {
-        trans.Rotate(0, virar * Time.deltaTime * Input.GetAxis("Horizontal"),0);
+        trans.Rotate(0, virar * Time.deltaTime * force, 0);
     }
 
-    private void disparar()
+    public void disparar()
     {
         GameObject tiro1 = Instantiate(tiro, tiroSpawn.gameObject.transform.position, Quaternion.identity);
         tiro1.transform.rotation = this.gameObject.transform.rotation;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            float tempo = Time.time;
+            pontuacao = tempo - pontuacao;
+            network.gameObject.GetComponent<Network>().setScore(pontuacao);
+            network.gameObject.GetComponent<Network>().setBattleShipEstado("gameOver");
+            Destroy(this.gameObject);
+            Debug.Log("Destroyed");
+        }
     }
 }

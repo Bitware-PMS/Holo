@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Inimigo.cs" />
     <Compile Include="Assets\Scripts\Jogo.cs" />
     <Compile Include="Assets\Scripts\Network.cs" />
+    <Compile Include="Assets\Scripts\Radar.cs" />
     <Compile Include="Assets\Scripts\Tiro.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

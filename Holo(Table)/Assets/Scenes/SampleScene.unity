@@ -1201,7 +1201,6 @@ GameObject:
   - component: {fileID: 2111447105}
   - component: {fileID: 2111447104}
   - component: {fileID: 2111447108}
-  - component: {fileID: 2111447109}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1307,11 +1306,4 @@ MonoBehaviour:
   textoEsquerda: {fileID: 1188983157}
   textoDireita: {fileID: 1964602099}
   textoBackground: {fileID: 1625285217}
-  nave: {fileID: 1846890194084620, guid: 56647031890b0de49ac64afba62a473b, type: 2}
---- !u!81 &2111447109
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2111447103}
-  m_Enabled: 0
+  nave: {fileID: 1937909681557294, guid: 56647031890b0de49ac64afba62a473b, type: 2}

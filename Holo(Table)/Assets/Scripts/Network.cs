@@ -36,6 +36,7 @@ public class Network : MonoBehaviour
     public GameObject nave;
     //Nave no jogo (Player)
     private GameObject ship;
+    private float score = 0;
     #endregion
 
     // Use this for initialization
@@ -57,6 +58,9 @@ public class Network : MonoBehaviour
         textoBaixo.text = guiText;
         textoEsquerda.text = guiText;
         textoDireita.text = guiText;
+        if(ship != null)
+        if (ship.GetComponent<Rigidbody>() == null)
+            Debug.Log("Player not in game");
 
         switch (battleShipEstado)
         {
@@ -64,7 +68,21 @@ public class Network : MonoBehaviour
                 textoBackground.SetActive(false);
                 guiText = "";
                 ship = Instantiate(nave, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
-                
+                score = 0;
+                ship.GetComponent<Jogo>().setNetwork(this.gameObject);
+                break;
+            case "left":
+                ship.gameObject.GetComponent<Jogo>().virarNave(1);
+                break;
+            case "right":
+                ship.gameObject.GetComponent<Jogo>().virarNave(-1);
+                break;
+            case "shoot":
+                ship.gameObject.GetComponent<Jogo>().disparar();
+                break;
+            case "gameOver":
+                guiText = "Score: " + score;
+                textoBackground.SetActive(true);
                 break;
             case "stop":
                 Destroy(ship);
@@ -191,10 +209,33 @@ public class Network : MonoBehaviour
     #region Battleship
     private void playBattleship()
     {
-        battleShipEstado = "start";
+        setBattleShipEstado("start");
         guiText = "";
+        while (true)
+        {
+            string estado = reader.ReadString();
+            setBattleShipEstado(estado);
+            if (estado.Equals("stop"))
+                break;
+        }
     }
     
+    public void setBattleShipEstado(String estado)
+    {
+        battleShipEstado = estado;
+    }
+
+    //A ser invocado pelo objeto ship
+    public void gameOver()
+    {
+
+    }
+
+    public void setScore(float score)
+    {
+        this.score = score;
+    }
+
     #endregion
 
     #endregion

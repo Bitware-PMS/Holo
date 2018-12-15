@@ -22,7 +22,7 @@ public class Menu : MonoBehaviour {
     #endregion
 
     #region Network
-    private Network client;
+    public Network client;
     #endregion
 
     private void Start()
@@ -45,6 +45,10 @@ public class Menu : MonoBehaviour {
                 case "Music":
                     setMenu("mainMenu");
                     break;
+                case "Battleship":
+                    stopGame();
+                    setMenu("Games");
+                    break;
                 default:
                     break;
             }
@@ -54,7 +58,7 @@ public class Menu : MonoBehaviour {
     {
         try
         {
-            //client.clientConnect("192.168.137.206", 8000);
+            //client.clientConnect("192.168.1.98", 8000);
             client.clientConnect("localhost", 8000);
             Debug.Log("Connected to Table!");
         }
@@ -156,6 +160,21 @@ public class Menu : MonoBehaviour {
     public void selectButtonBattleShip()
     {
         client.send("");
+    }
+
+    public void turnLeftBattleShip()
+    {
+        client.send("left");
+    }
+
+    public void shootGame()
+    {
+        client.send("shoot");
+    }
+
+    public void stopGame()
+    {
+        client.send("stop");
     }
     #endregion
 }
