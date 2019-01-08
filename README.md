@@ -1,7 +1,18 @@
 # <p align="center">Holo Project</p>
 
 ## Table of contents
-<!-- TOC -->autoauto- [<p align="center">Holo Project</p>](#p-aligncenterholo-projectp)auto    - [Table of contents](#table-of-contents)auto    - [Description](#description)auto        - [What's included](#whats-included)auto    - [Credits](#credits)auto        - [3D Models](#3d-models)auto        - [Music](#music)auto    - [Mentors](#mentors)auto    - [Collaborator](#collaborator)auto    - [BitWare Team](#bitware-team)autoauto<!-- /TOC -->
+<!-- TOC -->
+[Holo Project](#p-aligncenterholo-projectp)
+- [Table of contents](#table-of-contents)
+- [Description](#description)
+- [What's included](#whats-included)
+- [Credits](#credits)
+- [3D Models](#3d-models)
+- [Music](#music)
+- [Mentors](#mentors)
+- [Collaborator](#collaborator)
+- [BitWare Team](#bitware-team)
+<!-- /TOC -->
 
 ## Description
 See the world like never before!
@@ -14,20 +25,20 @@ With Holo Table you can bring the virtual world to the reality without any glass
 
 ## Credits
 ### 3D Models
-+ stuxh558 - X-Wing
-+ printable_models - Asteroid
++ [stuxh558 - X-Wing](https://free3d.com/3d-model/x-wing-star-wars-579.html)
++ [printable_models - Asteroid](https://free3d.com/3d-model/-asteroid--962525.html)
 
 ### Music
-+ Alan Walker - Fade
-+ TheFatRat - Unity
-+ TheFatRat - Fly Away feat. Anjulie
++ [Alan Walker - Faded](https://www.youtube.com/watch?v=bM7SZ5SBzyY)
++ [TheFatRat - Unity](https://www.youtube.com/watch?v=n8X9_MgEdCg)
++ [TheFatRat - Fly Away feat. Anjulie](https://www.youtube.com/watch?v=cMg8KaMdDYo)
 
 ## Mentors
 + [Ana Caraban](https://www.m-iti.org/people/ana-karina-caldeira-caraban) (M-ITI)
 + [Marko Radeta](https://www.m-iti.org/people/marko-radeta-phd) (M-ITI)
 
 ## Collaborator
-+ [Victor Azevedo](https://www.m-iti.org/people/victor-azevedo)
++ [Victor Azevedo](https://www.m-iti.org/people/victor-azevedo) (M-ITI)
 
 ## BitWare Team
 
