@@ -1,4 +1,4 @@
-# <center>Holo Project</center>
+# <p align="center">Holo Project</p>
 
 ## Table of contents
 + [Table of contents](##table-of-contents)
