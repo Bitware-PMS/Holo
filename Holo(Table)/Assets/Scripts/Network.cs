@@ -72,17 +72,21 @@ public class Network : MonoBehaviour
                 ship.GetComponent<Jogo>().setNetwork(this.gameObject);
                 break;
             case "left":
-                ship.gameObject.GetComponent<Jogo>().virarNave(1);
+                if (GameObject.FindGameObjectsWithTag("Player").Length != 0)
+                    ship.gameObject.GetComponent<Jogo>().virarNave(-1);
                 break;
             case "right":
-                ship.gameObject.GetComponent<Jogo>().virarNave(-1);
+                if (GameObject.FindGameObjectsWithTag("Player").Length != 0)
+                    ship.gameObject.GetComponent<Jogo>().virarNave(1);
                 break;
             case "shoot":
-                ship.gameObject.GetComponent<Jogo>().disparar();
+                if (GameObject.FindGameObjectsWithTag("Player").Length != 0)
+                    ship.gameObject.GetComponent<Jogo>().disparar();
                 break;
             case "gameOver":
                 guiText = "Score: " + score;
                 textoBackground.SetActive(true);
+                Destroy(ship);
                 break;
             case "stop":
                 Destroy(ship);
@@ -224,11 +228,13 @@ public class Network : MonoBehaviour
     {
         battleShipEstado = estado;
     }
-
-    //A ser invocado pelo objeto ship
+    
     public void gameOver()
     {
-
+        battleShipEstado = "gameOver";
+        guiText = "Score: " + score;
+        textoBackground.SetActive(true);
+        Destroy(ship);
     }
 
     public void setScore(float score)

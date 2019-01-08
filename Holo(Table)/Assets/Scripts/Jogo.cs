@@ -70,8 +70,7 @@ public class Jogo : MonoBehaviour
             float tempo = Time.time;
             pontuacao = tempo - pontuacao;
             network.gameObject.GetComponent<Network>().setScore(pontuacao);
-            network.gameObject.GetComponent<Network>().setBattleShipEstado("gameOver");
-            Destroy(this.gameObject);
+            network.gameObject.GetComponent<Network>().gameOver();
             Debug.Log("Destroyed");
         }
     }

@@ -9,6 +9,12 @@ public class Inimigo : MonoBehaviour {
         StartCoroutine(Count());
     }
 
+    private void FixedUpdate()
+    {
+        if(GameObject.FindGameObjectsWithTag("Player").Length == 0)
+            Destroy(this.gameObject);
+    }
+
     IEnumerator Count()
     {
         yield return new WaitForSeconds(Random.Range(10,20));

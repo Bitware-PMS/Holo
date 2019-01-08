@@ -58,7 +58,7 @@ public class Menu : MonoBehaviour {
     {
         try
         {
-            //client.clientConnect("192.168.1.98", 8000);
+            //client.clientConnect("192.168.137.206", 8000);
             client.clientConnect("localhost", 8000);
             Debug.Log("Connected to Table!");
         }
