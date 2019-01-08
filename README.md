@@ -1,7 +1,18 @@
 # <p align="center">Holo Project</p>
 
 ## Table of contents
-<!-- TOC -->autoauto- [<p align="center">Holo Project</p>](#p-aligncenterholo-projectp)auto    - [Table of contents](#table-of-contents)auto    - [Description](#description)auto        - [What's included:](#whats-included)auto    - [Credits](#credits)auto        - [3D Models](#3d-models)auto        - [Music](#music)auto    - [Mentors](#mentors)auto    - [Collaborator](#collaborator)auto    - [BitWare Team](#bitware-team)autoauto<!-- /TOC -->
+<!-- TOC -->
+[Holo Project](#p-aligncenterholo-projectp)
+- [Table of contents](#table-of-contents)
+- [Description](#description)
+- [What's included:](#whats-included)
+- [Credits](#credits)
+- [3D Models](#3d-models)
+- [Music](#music)
+- [Mentors](#mentors)
+- [Collaborator](#collaborator)
+- [BitWare Team](#bitware-team)
+<!-- /TOC -->
 
 ## Description
 See the world like never before!
