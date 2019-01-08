@@ -2,7 +2,7 @@
 
 ## Table of contents
 <!-- TOC -->
-[Holo Project](#p-aligncenterholo-projectp)
+[Holo Project](#holo-project)
 - [Table of contents](#table-of-contents)
 - [Description](#description)
 - [What's included](#whats-included)
