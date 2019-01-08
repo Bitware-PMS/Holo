@@ -16,16 +16,14 @@ With Holo Table you can bring the virtual world to the reality without any glass
 ## Credits
 <details>
 <summary>3D Models</summary>
-<br>
-+ stuxh558 - X-Wing
-+ printable_models - Asteroid
+* stuxh558 - X-Wing
+* printable_models - Asteroid
 </details>
 <details>
 <summary>Music</summary>
-<br>
-+ Alan Walker - Fade
-+ TheFatRat - Unity
-+ TheFatRat - Fly Away feat. Anjulie
+* Alan Walker - Fade
+* TheFatRat - Unity
+* TheFatRat - Fly Away feat. Anjulie
 </details>
 
 ## Mentors
