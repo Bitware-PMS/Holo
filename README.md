@@ -1,25 +1,14 @@
 # <p align="center">Holo Project</p>
 
 ## Table of contents
-<!-- TOC -->
-[Holo Project](#p-aligncenterholo-projectp)
-- [Table of contents](#table-of-contents)
-- [Description](#description)
-- [What's included:](#whats-included)
-- [Credits](#credits)
-- [3D Models](#3d-models)
-- [Music](#music)
-- [Mentors](#mentors)
-- [Collaborator](#collaborator)
-- [BitWare Team](#bitware-team)
-<!-- /TOC -->
+<!-- TOC -->autoauto- [<p align="center">Holo Project</p>](#p-aligncenterholo-projectp)auto    - [Table of contents](#table-of-contents)auto    - [Description](#description)auto        - [What's included](#whats-included)auto    - [Credits](#credits)auto        - [3D Models](#3d-models)auto        - [Music](#music)auto    - [Mentors](#mentors)auto    - [Collaborator](#collaborator)auto    - [BitWare Team](#bitware-team)autoauto<!-- /TOC -->
 
 ## Description
 See the world like never before!
 <br>
-With Holo Table you can bring the virtual world to the reality without any glasses. This table is controlled via Wi-Fi using a Smartwatch.
+With Holo Table you can bring the virtual world to the reality without any glasses. Holo is controlled via Wi-Fi using a Smartwatch.
 
-### What's included:
+### What's included
 + 1 Game 
 + Music Player (To be added soon)
 
@@ -34,11 +23,11 @@ With Holo Table you can bring the virtual world to the reality without any glass
 + TheFatRat - Fly Away feat. Anjulie
 
 ## Mentors
-+ Ana Caraban (M-ITI)
-+ Marko Radeta (M-ITI)
++ [Ana Caraban](https://www.m-iti.org/people/ana-karina-caldeira-caraban) (M-ITI)
++ [Marko Radeta](https://www.m-iti.org/people/marko-radeta-phd) (M-ITI)
 
 ## Collaborator
-+ 
++ [Victor Azevedo](https://www.m-iti.org/people/victor-azevedo)
 
 ## BitWare Team
 
