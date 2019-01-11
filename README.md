@@ -22,7 +22,7 @@ With Holo Table you can bring the virtual world to the reality without any glass
 ### What's included
 + [Holo Table App](https://github.com/Bitware-PMS/Holo/tree/master/Holo(Table))
     + 1 Game 
-    + Music Player (To be added soon)
+    + Music Player
 + [Holo SmartWatch App](https://github.com/Bitware-PMS/Holo/tree/master/Holo(SmartWatch))
     + Game Controllers
     + Music Player Controller
