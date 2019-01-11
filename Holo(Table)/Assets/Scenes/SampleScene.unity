@@ -1201,6 +1201,7 @@ GameObject:
   - component: {fileID: 2111447105}
   - component: {fileID: 2111447104}
   - component: {fileID: 2111447108}
+  - component: {fileID: 2111447109}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1307,3 +1308,20 @@ MonoBehaviour:
   textoDireita: {fileID: 1964602099}
   textoBackground: {fileID: 1625285217}
   nave: {fileID: 1617418782556268, guid: fb6a266d583955142abf4b0034aeb85a, type: 2}
+  emissor: {fileID: 661251160}
+  songs:
+  - {fileID: 8300000, guid: 3e8032fdd96e1574898a4e5118e18c85, type: 3}
+  - {fileID: 8300000, guid: 766c99ad845b0374d904145d1a424771, type: 3}
+  - {fileID: 8300000, guid: 387b847a5a68cf44d9b829b8690dd24e, type: 3}
+  - {fileID: 8300000, guid: dc1b8592a9a434f47992b2c05ac7f168, type: 3}
+  - {fileID: 8300000, guid: 7a52ebb065532f94587fb4d4ddc62f85, type: 3}
+  - {fileID: 8300000, guid: a78d8bef003b91742b9e9b07e8ac2955, type: 3}
+  - {fileID: 8300000, guid: 533a781d21b8acc428bfa7aec40d4e7b, type: 3}
+  currentSong: 0
+--- !u!81 &2111447109
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2111447103}
+  m_Enabled: 1

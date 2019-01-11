@@ -44,6 +44,7 @@ public class Menu : MonoBehaviour {
                     break;
                 case "Music":
                     setMenu("mainMenu");
+                    stopMusic();
                     break;
                 case "Battleship":
                     stopGame();
@@ -110,6 +111,7 @@ public class Menu : MonoBehaviour {
         {
             musicMenu.SetActive(true);
             currentMenu = "Music";
+            startMusic();
         }
         else
             musicMenu.SetActive(false);
@@ -138,6 +140,63 @@ public class Menu : MonoBehaviour {
     }
     #endregion
 
+    #region Music Functions
+    public void volUp()
+    {
+        client.send("volUp");
+    }
+
+    public void volDown()
+    {
+        client.send("volDown");
+    }
+
+    public void play()
+    {
+        client.send("play");
+    }
+
+    public void pause()
+    {
+        client.send("pause");
+    }
+
+    public void next()
+    {
+        client.send("next");
+    }
+
+    public void back()
+    {
+        client.send("back");
+    }
+
+    public void stop()
+    {
+        client.send("stop");
+    }
+
+    public bool startMusic()
+    {
+        client.send("Music");
+        if (!client.receive().Equals("Music"))
+            return false;
+        client.send("start");
+        if (client.receive().Equals("start"))
+            return true;
+        else
+            return false;
+    }
+    public bool stopMusic()
+    {
+        client.send("stopMusic");
+        if (client.receive().Equals("stopMusic"))
+            return true;
+        else
+            return false;
+    }
+    #endregion
+
     #region Games Functions
     public bool startGame(string game)
     {
@@ -160,7 +219,7 @@ public class Menu : MonoBehaviour {
     public void selectButtonBattleShip()
     {
         client.send("");
-    }
+    }    
 
     public void turnLeftBattleShip()
     {

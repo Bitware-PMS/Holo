@@ -2,9 +2,9 @@
 
 ## Table of contents
 <!-- TOC -->
-[Holo Project](#holo-project)
+[Holo Project](#holo-projectp)
 - [Table of contents](#table-of-contents)
-- [Description](#description)
+- [Description](#description)        
 - [What's included](#whats-included)
 - [Credits](#credits)
 - [3D Models](#3d-models)
@@ -20,18 +20,25 @@ See the world like never before!
 With Holo Table you can bring the virtual world to the reality without any glasses. Holo is controlled via Wi-Fi using a Smartwatch.
 
 ### What's included
-+ 1 Game 
-+ Music Player (To be added soon)
-
++ [Holo Table App](https://github.com/Bitware-PMS/Holo/tree/master/Holo(Table))
+    + 1 Game 
+    + Music Player (To be added soon)
++ [Holo SmartWatch App](https://github.com/Bitware-PMS/Holo/tree/master/Holo(SmartWatch))
+    + Game Controllers
+    + Music Player Controller
 ## Credits
 ### 3D Models
 + [stuxh558 - X-Wing](https://free3d.com/3d-model/x-wing-star-wars-579.html)
 + [printable_models - Asteroid](https://free3d.com/3d-model/-asteroid--962525.html)
 
 ### Music
-+ [Alan Walker - Faded](https://www.youtube.com/watch?v=bM7SZ5SBzyY)
-+ [TheFatRat - Unity](https://www.youtube.com/watch?v=n8X9_MgEdCg)
-+ [TheFatRat - Fly Away feat. Anjulie](https://www.youtube.com/watch?v=cMg8KaMdDYo)
++ [THEFATRAT - FLY AWAY (INUKSHUK REMIX)](https://the-arcadium.net/tracks/fly-away-inukshuk-remix/)
++ [THEFATRAT - THE CALLING](https://the-arcadium.net/tracks/the-calling/)
++ [THEFATRAT - FLY AWAY](https://the-arcadium.net/tracks/fly-away/)
++ [MABEHA - LEVITATION](https://the-arcadium.net/tracks/levitation/)
++ [THEFATRAT - NO NO NO](https://the-arcadium.net/tracks/no-no-no/)
++ [COLBREAKZ & LOXIVE - ALWAYS WITH YOU](https://the-arcadium.net/tracks/always-with-you/)
++ [BECKO - OUR LAST TIME](https://the-arcadium.net/tracks/our-last-time/)
 
 ## Mentors
 + [Ana Caraban](https://www.m-iti.org/people/ana-karina-caldeira-caraban) (M-ITI)

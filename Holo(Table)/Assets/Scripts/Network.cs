@@ -98,6 +98,52 @@ public class Network : MonoBehaviour
         }
         battleShipEstado = "";
 
+        switch(commandBoxMusic)
+        {
+            case "play":
+                emissor.clip = songs[currentSong];
+                emissor.Play();
+                break;
+
+            case "next":
+                if (currentSong == songs.Length - 1)
+                    currentSong = 0;
+                else
+                    currentSong++;
+                emissor.clip = songs[currentSong];
+                emissor.Play();
+                break;
+
+            case "back":
+                if (currentSong == 0)
+                    currentSong = songs.Length - 1;
+                else
+                    currentSong--;
+                emissor.clip = songs[currentSong];
+                emissor.Play();
+                break;
+
+            case "pause":
+                emissor.Pause();
+                break;
+
+            case "stop":
+                emissor.Stop();
+                break;
+            case "volUp":
+                if (musicVolume < 1.0f)
+                    musicVolume+=0.1f;
+                emissor.volume = musicVolume;
+                Debug.Log("Vol: " + musicVolume);
+                break;
+            case "volDown":
+                if (musicVolume > 0)
+                    musicVolume-= 0.1f;
+                emissor.volume = musicVolume;
+                Debug.Log("Vol: " + musicVolume);
+                break;
+        }
+        commandBoxMusic = "";
     }
 
     /** Main Network Server Code **/
@@ -152,6 +198,10 @@ public class Network : MonoBehaviour
 
                             playBattleship();
                             break;
+                        case "Music":
+                            writer.Write("Music");
+                            musicPlayer();
+                            break;
                         default:
                             break;
                     }
@@ -166,6 +216,59 @@ public class Network : MonoBehaviour
         }
     }
 
+    public AudioSource emissor;
+    public AudioClip[] songs;
+    public int currentSong = 0;
+    public String commandBoxMusic = "";
+    public float musicVolume = 1.0f;
+
+    #region Music Player
+    private void musicPlayer()
+    {
+        while(true)
+        {
+            switch(reader.ReadString())
+            {
+                case "start":
+                    writer.Write("start");
+                    guiText = "Music Player";
+                    break;
+
+                case "play":
+                    commandBoxMusic = "play";
+                    break;
+
+                case "next":
+                    commandBoxMusic = "next";
+                    break;
+
+                case "back":
+                    commandBoxMusic = "back";
+                    break;
+
+                case "pause":
+                    commandBoxMusic = "pause";
+                    break;
+
+                case "stop":
+                    commandBoxMusic = "stop";
+                    break;
+                case "volUp":
+                    commandBoxMusic = "volUp";
+                    break;
+                case "volDown":
+                    commandBoxMusic = "volDown";
+                    break;
+                case "stopMusic":
+                    guiText = "";
+
+                    writer.Write("stop");
+                    return;
+                    break;
+            }
+        }
+    }
+    #endregion
 
     #region App Functions
     private void login()
