@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameButtonRight">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAEAAAAAAAAAAgQACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameButtonLeft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameButtonLeft">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAEAAAAAAAAAAgQACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameButtonRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="8" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>FhgAAAEAAiAABAAAkKAAAAABQACkEoAAAQAAhAJAMAA=</HashCode>
+      <FileName>Assets\Scripts\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Network">
+    <Position X="5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAIAAAAQAAABAAAAAAAAQAAFAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Network.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
