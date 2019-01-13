@@ -49,8 +49,8 @@ With Holo Table you can bring the virtual world to the reality without any glass
 
 ## BitWare Team
 
-|       Name      |     Function    |                  GitHub                 |
-|:---------------:|:---------------:|:---------------------------------------:|
-|  Ivan Teixeira  |      Coder      |    [ZenJB](https://github.com/ZenJB)    |
-|  Isabel Rebelo  | Project Manager |                                         |
-| Eurico Teixeira |     Designer    | [eukiko95](https://github.com/eukiko95) |
+|       Name      |     Function    |                       GitHub                      |
+|:---------------:|:---------------:|:-------------------------------------------------:|
+| Eurico Teixeira |     Designer    |      [eukiko95](https://github.com/eukiko95)      |
+|  Isabel Rebelo  | Project Manager | [IsabelJoaquim](https://github.com/IsabelJoaquim) |
+|  Ivan Teixeira  |      Coder      |         [ZenJB](https://github.com/ZenJB)         |
