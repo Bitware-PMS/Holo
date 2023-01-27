@@ -41,11 +41,11 @@ With Holo Table you can bring the virtual world to the reality without any glass
 + [BECKO - OUR LAST TIME](https://the-arcadium.net/tracks/our-last-time/)
 
 ## Mentors
-+ [Ana Caraban](https://www.m-iti.org/people/ana-karina-caldeira-caraban) (M-ITI)
-+ [Marko Radeta](https://www.m-iti.org/people/marko-radeta-phd) (M-ITI)
++ [Ana Caraban](https://scholar.google.com/citations?user=V43CjYIAAAAJ&hl=fr) (ARDITI)
++ [Marko Radeta](https://www.cienciavitae.pt/DE14-F1F6-E3CB) (ARDITI)
 
 ## Collaborator
-+ [Victor Azevedo](https://www.m-iti.org/people/victor-azevedo) (M-ITI)
++ [Victor Azevedo](https://www.linkedin.com/in/victor-azevedo-518ba8a4/) (ARDITI)
 
 ## BitWare Team
 
