@@ -53,4 +53,4 @@ With Holo Table you can bring the virtual world to the reality without any glass
 |:---------------:|:---------------:|:-------------------------------------------------:|
 | Eurico Teixeira |     Designer    |      [eukiko95](https://github.com/eukiko95)      |
 |  Isabel Rebelo  | Project Manager | [IsabelJoaquim](https://github.com/IsabelJoaquim) |
-|  Ivan Teixeira  |      Coder      |         [ZenJB](https://github.com/ZenJB)         |
+|  Ivan Teixeira  |      Coder      |         [Zlynt](https://github.com/Zlynt)         |
